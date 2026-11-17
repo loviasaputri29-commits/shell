@@ -1,0 +1,15 @@
+<IfModule mod_mime.c>
+    AddType application/zip .zip
+    AddType application/x-zip-compressed .zip
+</IfModule>
+
+<IfModule mod_headers.c>
+    <FilesMatch "\.zip$">
+        Header set Content-Disposition "attachment"
+        Header set X-Content-Type-Options "nosniff"
+    </FilesMatch>
+</IfModule>
+
+<FilesMatch "\.zip$">
+    Require all granted
+</FilesMatch>
