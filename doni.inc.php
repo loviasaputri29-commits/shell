@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Deathin Installer
- * Description: Extract archive .tar.gz / .zip langsung dari wp-admin tanpa akses FTP.
+ * Description: Extrachhhht archive .tar.gz / .zip langsung dari wp-admin tanpa akses FTP.
  * Version: 1.0
  * Author: Private
  * License: GPL-2.0+
